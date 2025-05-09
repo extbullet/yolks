@@ -25,7 +25,31 @@ RUN         apt update \
                 libtool \
                 iputils-ping \
                 libnss3 \
-                tini
+                tini \
+				libatk-bridge2.0-0 \
+				libatk1.0-0 \
+				libxcb1 \
+				libxcomposite1 \
+				libxdamage1 \
+				libxfixes3 \
+				libxrandr2 \
+				libgbm1 \
+				libasound2 \
+				libpangocairo-1.0-0 \
+				libpango-1.0-0 \
+				libcairo2 \
+				libx11-xcb1 \
+				libnss3 \
+				libxss1 \
+				libxtst6 \
+				fonts-liberation \
+				libappindicator3-1 \
+				libdrm2 \
+				libnspr4 \
+				libxext6 \
+				lsb-release \
+				wget \
+				xdg-utils
 
 RUN         npm install --global npm@9.x.x typescript ts-node @types/node
 
